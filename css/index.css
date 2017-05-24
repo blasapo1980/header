@@ -1,3 +1,6 @@
+header {
+  position: relative; }
+
 h1 {
   color: white;
   font-family: "Ubuntu", sans-serif;
@@ -8,7 +11,9 @@ p {
 
 .show-menu {
   background-color: #3AC3CB;
-  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0%;
   text-align: right;
   -webkit-animation-name: opacityMenu;
           animation-name: opacityMenu;
@@ -29,9 +34,6 @@ p {
     opacity: 0; }
   to {
     opacity: 1; } }
-@media screen and (min-width: 480px) {
-  .show-menu {
-    display: none; } }
 img {
   width: 50px; }
 
@@ -72,5 +74,7 @@ li {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; } }
+.hidden {
+  display: none; }
 
 /*# sourceMappingURL=index.css.map */

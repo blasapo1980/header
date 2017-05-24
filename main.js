@@ -1,12 +1,17 @@
 var boton = document.querySelector(".btn-menu");
-
+var menu = document.querySelector(".show-menu");
 
 function toggle() {
-  var menu = document.querySelector(".show-menu");
-  if (menu.style.display==="none" || menu.style.display===""){
-    menu.style.display="block";
+  if (menu.classList.contains('hidden')) {
+    menu.classList.remove('hidden');
+
   } else {
-    menu.style.display="none";
+    menu.classList.add('hidden');
   }
 }
 boton.addEventListener('click', toggle);
+
+function hiddenFullScreen() {
+  menu.classList.add('hidden')
+}
+window.addEventListener('resize', hiddenFullScreen);
