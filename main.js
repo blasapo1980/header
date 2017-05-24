@@ -10,8 +10,3 @@ function toggle() {
   }
 }
 boton.addEventListener('click', toggle);
-
-function hiddenFullScreen() {
-  menu.classList.add('hidden')
-}
-window.addEventListener('resize', hiddenFullScreen);

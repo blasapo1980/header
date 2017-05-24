@@ -73,7 +73,10 @@ li {
   .menu-full-screen {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex; } }
+    display: flex; }
+
+  .show-menu {
+    display: none; } }
 .hidden {
   display: none; }
 
