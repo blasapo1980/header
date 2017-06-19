@@ -9,6 +9,7 @@ a {
   text-decoration: none;
   color: white;
 }
+
 .menu-full-screen {
   display: none;
 }
@@ -19,12 +20,12 @@ li {
   padding: 5px;
 }
 
-@media screen and (min-width: $mobile-size) {
+@media (min-width: $mobile-size-max) {
   .menu-full-screen {
     display: flex;
   }
 
-  .show-menu {
+  .menu-mobile {
     display: none;
   }
 }

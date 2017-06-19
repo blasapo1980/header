@@ -1,5 +1,5 @@
 var boton = document.querySelector(".btn-menu");
-var menu = document.querySelector(".show-menu");
+var menu = document.querySelector(".menu-mobile");
 
 function toggle() {
   if (menu.classList.contains('hidden')) {
