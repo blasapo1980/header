@@ -19,15 +19,9 @@ p {
   top: 100%;
   right: 0%;
   text-align: right;
-  animation-name: opacityMenu;
-  animation-duration: 2s;
+
 }
 
 .open-menu {
   margin-top: 0;
-}
-
-@keyframes opacityMenu {
-  from {opacity: 0;}
-  to {opacity: 1;}
 }

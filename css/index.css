@@ -14,26 +14,11 @@ p {
   position: absolute;
   top: 100%;
   right: 0%;
-  text-align: right;
-  -webkit-animation-name: opacityMenu;
-          animation-name: opacityMenu;
-  -webkit-animation-duration: 2s;
-          animation-duration: 2s; }
+  text-align: right; }
 
 .open-menu {
   margin-top: 0; }
 
-@-webkit-keyframes opacityMenu {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
-@keyframes opacityMenu {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
 img {
   width: 50px; }
 
